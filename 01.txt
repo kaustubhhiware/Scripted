@@ -1,0 +1,52 @@
+$ clear
+//clear current screen
+
+$ who am i
+//displays name , id , date and time
+
+$pwd
+//present working directory
+
+$ cal
+//calendar for current month
+
+$ cal 7 2006
+$ cal jul 2006
+// calendar for july (7th month) 2006
+
+$ cal 2004
+//calendar for year 2004
+
+$ date
+// current date e.g : Sun May  8 11:02:49 IST 2016
+
+> %n //new line for printing format
+
+$ date '+DATE:%m-%y%nTIME:%H:%M:%S'
+//format for date
+//DATE:05-16
+//TIME:11:06:12
+
+$ touch test
+// create empty text file named test in pwd
+
+$ mkdir loc
+// create empty folder named loc - can add path to it as well
+
+$ cd Documents
+// change pwd for the session
+
+$ cat > test
+// create a text file and input details - you may now edit data directly through the terminal 
+//to finish editing , press Ctrl + D
+
+$ cat < test 
+//display only - may skip <
+
+$ cat test random > sample
+// test and random files(both already created ) merged into sample file
+//first contents of test sho up , then of second from the next line
+
+$ 
+
+
