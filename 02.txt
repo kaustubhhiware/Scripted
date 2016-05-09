@@ -1,0 +1,40 @@
+$ mv old_name new_name
+//change name
+
+$ rm remove_file
+//removes file
+
+$ rm -r fold
+$ rmdir fold
+//either removes folders
+
+$ cp old <directory where you want to move without <> >/new_name
+//copy files to another directory
+
+$ ln old link
+// link points to old ,  hence both these files have identical content , irresp of which file you modify
+
+$ ln -s old old_soft
+// soft pointer , points to old - deleting old doesn't do anything to link , but old_soft becomes inaccessible
+
+$ ls
+//list contents of pwd
+
+$ ls folder_name
+//if folder name is a folder in pwd , list contents of folder_name - returns only name for files
+
+$ ls -l
+//long listing
+//if a line starts with dr.... - folder , or with -r... - file
+//... represent the permissions for it -w = write,r = read,x = execute in the order user,other users in group , and guest
+
+$ ls -a
+//display all files - include hidden . Hidden files / folders start with . - .gitconfig
+
+$ chmod 777 file_name
+//777 means all users gain all permissions - user,other users in group , and guest
+//read - 4 , write - 2 , execute - 1 is the encoding
+
+$ uname -a
+// know about your kernel , more details , sample -
+//Linux kaustubh-ubuntu 4.2.0-35-generic #40~14.04.1-Ubuntu SMP Fri Mar 18 16:37:35 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
