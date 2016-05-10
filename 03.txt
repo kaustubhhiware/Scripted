@@ -1,0 +1,38 @@
+$ file *
+//display all contents in pwd with type detail
+
+$ wc file
+//  105  462 3013 file
+// #lines #words #chars file_name
+
+$ wc -l file
+//#lines only - same for -w , -c
+
+$ sort names
+// displays file content in alphabetical order - does not change order in file
+
+$ sort 
+// terminal awaits input - when you press Ctrl+D , sorted output is displayed
+
+$ cut -d "-" -f 1,3 players
+//-d indicates what divides the fields , -f indicates what fields I want to see (1-indexed)
+
+$ dd if=test of=out conv=ucase
+//copy files
+//if = input file of = output file , ucase implies UPPERCASE	
+//conv=ebcdic copies file with European std format
+
+$ man cat
+//manual for cat
+
+$  banner sample text
+// view fancy banner style printing - every space considered as new line
+// if you want spaces , use banner "sample text" - upto 10 chars supported
+
+$ compress -v file
+//compresses file to save some space
+// cant't access file now with cat file
+//use zcat file.Z (or whatever the compressed file is named)
+
+$ uncompress file.Z
+//uncompress file to view
