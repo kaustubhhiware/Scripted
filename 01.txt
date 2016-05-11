@@ -2,7 +2,7 @@ $ clear
 //clear current screen
 
 $ who am i
-//displays name , id , date and time
+//displays name ,  terminal id , date and time
 
 $pwd
 //present working directory

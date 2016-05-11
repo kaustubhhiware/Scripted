@@ -1,0 +1,21 @@
+You need to run a sh file with
+$ sh ss1.sh
+
+$ a = 4
+$ echo $a
+//print value of a
+
+$ sh ss4.sh test output
+// test - original file , output - moved file
+
+$ set Shell scripting is all I wanna do
+$ echo $1
+Shell
+ echo $4
+all
+$ echo $9
+
+$echo $*
+Shell scripting is all I wanna do
+//printing example
+
