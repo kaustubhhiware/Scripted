@@ -1,0 +1,6 @@
+$ set `cat file`
+//reverse quote for setting from file
+
+$ set jim carrey is freakingly ridiculous
+$ echo $#
+//gives the number of arguments - 5 here 
