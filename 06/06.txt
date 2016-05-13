@@ -1,0 +1,8 @@
+
+$ mkdir new
+$ echo $?
+//check if could not be executed - o/p 0
+
+$ mkdir new
+$ echo $?
+//check if could not be executed - o/p 1
