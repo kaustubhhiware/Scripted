@@ -1,0 +1,45 @@
+//use -eq for equal to 
+//usage => if [ $a -eq $b ]
+
+//if a boolean is expected (0/1) , and output is 2 , it means some kind of illegal operation is carried out and 
+//hence , result could not be determined
+
+//while comparing non-integer numbers like 4.5, we encounter the following errors , 
+// to skip that , treat them as strings and check equality with
+// "$a" = "$b"
+
+//usage of grep - globally searcher regular expression and printer #check
+
+$grep money text_file
+//search for the word money in text_file
+//returns nothing as Money is present
+
+$grep -i money text_file
+//case insensitive - output
+/*
+Money , get away
+Money , it's a gas 
+Money get back
+*/
+
+$grep -i -n money text_file
+//display line numbers
+/*
+1:Money , get away
+5:Money , it's a gas 
+12:Money get back
+*/
+
+$grep -i -c money text_file
+//get count / number of instances
+
+$grep -i -v money text_file
+//display all lines without the word money in them
+
+//suggested
+$man grep
+
+//The passwd file
+$cat /etc/passwd
+
+//we will see more about passwd in the folder 10
