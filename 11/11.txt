@@ -1,0 +1,24 @@
+//if you need to execute more than one command in a go , use ;
+
+$ ls ; cal ; date
+//sequence
+
+$cal && echo "Hello"
+//both executed simultaneously
+// for or , use ||
+
+//login new user
+//for this , you need to create a new user with the GUI , you go to
+//System Settings > Users > create new user
+//new user is user2
+
+//Essential for logger_33.sh
+$sudo login
+[sudo] password for kaustubh: #root passwd
+kaustubh-ubuntu login: user2 #created user
+Password: #password for user
+
+//now , the username changes
+//logout using exit
+
+
