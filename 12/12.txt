@@ -1,0 +1,25 @@
+//communicating with other users
+//first login in a separate terminal with user2
+
+$mesg y
+//in user2 terminal , able messages
+
+$write uer2
+//main terminal , you can now write a msg which stops with Ctrl + D
+//msg shows up in user2 terminal , press Enter to exit 
+
+$finger
+//check login status of all users
+//may need to install separately
+
+//create own functions
+$chmod +x func.sh
+#mark executable  - may have to write location , better still , store in home dir
+$ . func.sh
+#store functions to memory
+#ready to execute now
+
+//remove function
+$unset fls
+
+#check out multiple script execution in ss33.sh and ss34.sh
