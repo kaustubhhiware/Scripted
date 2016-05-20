@@ -28,6 +28,7 @@ $ man cat
 $  banner sample text
 // view fancy banner style printing - every space considered as new line
 // if you want spaces , use banner "sample text" - upto 10 chars supported
+//may need to install separately
 
 $ compress -v file
 //compresses file to save some space
